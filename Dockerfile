@@ -1,5 +1,5 @@
 FROM eclipse-temurin:17
 WORKDIR /app
 COPY . .
-RUN javac test.java
-CMD ["java", "test"]
+RUN javac Test.java
+CMD ["java", "Test"]
